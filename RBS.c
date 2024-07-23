@@ -14,7 +14,7 @@ struct orders{
 	struct items itm[50];
 };
 
-//Functions to generate Bills
+//Functions to generate Bill
 void generateBillHeader(char name[50],char date[30]){
 	printf("\n\n");
 		printf("        CodeZero Restaurant");
